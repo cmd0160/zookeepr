@@ -1,6 +1,6 @@
 const express = require("express");
 const { animals } = require("./data/animals");
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3001;
 // Instantiate the server
 // Assign to a variable so you can chain methods
 const app = express();
